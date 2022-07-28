@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+        
+    <div class="offer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="offer-cont">
+                        <div class="logo">
+                            <img src="./img/logo.png" alt="">
+                        </div>
+                        <h1 class="offer-cont__title">
+                            В курсі усіх подій
+                        </h1>
+                        <h2 class="offer-cont_subtitle">
+                            Приєднуйся прямо зараз!
+                        </h2>
+                        <a href="#" class="button-reg" id="button-reg">
+                            Зареєструватись
+                        </a>
+                        <h3 class="offer-cont__text">
+                            Уже зареєстровані?
+                        </h3>
+                        <a href="#" class="button-login" id="button-login">
+                            Увійти
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="background">
+                        <img src="./img/back1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="popup-login">
+        <div class="popup-login__cont">
+            <img src="./img/cross.png" alt="" class="cross1">
+        <form action="includes/signin.php" method="post">
+            <h3 class="login-text">Вхід в аккаунт</h3>
+            <input type="text" name="login" placeholder="Логін">
+            <input type="password" name="pass" placeholder="Пароль">
+            <button class="button-reg" type="submit">
+                Увійти
+            </button>
+        </form>
+        </div>
+    </div>
+
+    <div class="popup-reg">
+        <div class="popup-reg__cont">
+            <img src="./img/cross.png" alt="" class="cross">
+            <h3 class="reg-text">Створіть обліковий запис</h3>
+        <form action="includes/signup.php" method="post">
+            <input type="text" name="login" placeholder="Логін">
+            <input type="text" name="name" placeholder="Ім'я">
+            <input type="password" name="pass" placeholder="Пароль">
+            <button class="button-reg" type="submit">
+                Зареєструватись
+            </button>
+            
+        </div>
+    </div>
+
+    <script src="./js/popup-reg.js"></script>
+    <script src="./js/popup-login.js"></script>
+</body>
+</html>

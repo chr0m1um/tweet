@@ -1,0 +1,164 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+
+button {
+    display: block;
+    border: none;
+    background: transparent;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+}
+
+.logo {
+    padding-top: 60px;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.offer-cont__title {
+    padding-top: 57px;
+    font-size: 64px;
+}
+
+.offer-cont_subtitle {
+    padding-top: 57px;
+    padding-bottom: 57px;
+}
+
+.offer-cont__text {
+    font-size: 15px;
+    padding-top: 128px;
+    padding-bottom: 16px;
+}
+.button-reg {
+    
+    display: inline;
+    background: #2793DA;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    padding: 11px 60px;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+.button-reg:hover {
+    outline: 0;
+    outline-offset: 0;
+    background: #2972ba;
+    color: white;
+}
+
+
+.button-login {
+    background: rgb(255, 255, 255);
+    color: #2793DA;
+    border: 1px solid rgb(193, 193, 193);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 11px 103px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.button-login:hover {
+    outline: 0;
+    outline-offset: 0;
+    background: #f5fbff;
+    color: #2793DA;
+}
+
+.background {
+    background: no-repeat right top;
+    
+}
+
+.popup-reg {
+    background: rgba(196, 196, 196, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.popup-reg__cont {
+    
+    height: 470px;
+    width: 520px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+input {
+    margin: 35px auto;
+    display: block;
+    position: center;
+    width: 426px;
+    height: 45px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-weight: 300;
+    border: 1px solid rgb(206, 205, 205);
+    text-decoration: none;
+}
+
+.reg-text {
+    padding-top: 30px;
+}
+
+.cross {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.popup-login {
+    background: rgba(196, 196, 196, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.popup-login__cont {
+    height: 370px;
+    width: 520px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.cross1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.login-text {
+    padding-top: 30px;
+}
+
